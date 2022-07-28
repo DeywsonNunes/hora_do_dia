@@ -3,8 +3,8 @@ function carregar(){
     var msg = document.getElementById('msg');
     var img = document.getElementById('img');
     var data = new Date();
-    //var hora = data.getHours();
-    var hora = 10;
+    var hora = data.getHours();
+    //var hora = 10;
     var minutos = data.getMinutes();
     msg.innerHTML="<strong>Agora são " +hora+ " horas e "+ minutos+" Minutos</strong>";
 
